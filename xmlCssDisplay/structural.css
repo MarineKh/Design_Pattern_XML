@@ -1,0 +1,86 @@
+@media screen and (min-width: 4291px) {
+	value, desc, des-pattern, code-complete, else {
+		font-size: 8px;
+	}
+}
+pat {
+	width: 885px;
+	background-color: #ebf4fa;
+	display: table;	
+	border: 0.3px solid #aaa;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+row value:first-child {
+	height: 40px;
+	color: #0645ad;
+	cursor: pointer;
+}
+row:first-of-type value,
+row:first-of-type desc,
+row:first-of-type des-pattern,
+row:first-of-type code-complete,
+row:first-of-type else {
+	color: #206ba4;
+	font-weight: bold;
+    text-align: center;
+
+    background-color:rgba(32,107,164,0.27);
+}
+heading {
+	color: #206ba4;
+	font-size: 19px;
+	font-weight: bold;
+
+	display: table-caption;
+
+	padding: 10px 5px;
+}
+value, desc, des-pattern, code-complete, else {
+	display: table-cell;
+	border: 0.3px solid #aaa;
+}
+value {
+	width: 90px;
+	padding: 20px 0 0 5px;
+}
+desc {
+	color: #606db0;
+	width: 500px;
+
+	vertical-align: middle;
+	text-align: justify;
+
+	display: table-cell;
+	padding: 5px 15px 0 5px;
+}
+des-pattern {
+	width: 70px;
+	vertical-align: middle;
+}	
+code-complete {
+	width: 70px;
+	vertical-align: middle;
+}
+else {
+	width: 120px;
+	vertical-align: middle;
+}
+.blackText {
+	color: black;
+}
+des-pattern[class=green],
+code-complete[class=green],
+else[class=green] {
+	text-align: center;
+	background-color: #e3ddd1;
+}
+des-pattern[class=red],
+code-complete[class=red] {
+	text-align: center;
+	background-color: #cde4f5;
+}
+else[class=gray] {
+	background-color:rgba(32,107,164,0.27);
+	text-align: center;
+}

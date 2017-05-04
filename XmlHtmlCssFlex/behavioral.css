@@ -1,0 +1,58 @@
+root {
+	width: 900px;
+	background-color: #f2f2f2;
+	margin: auto;
+	padding-bottom: 86px;
+	
+	display: -webkit-flex;
+	display: -moz-flex;
+    display: flex;
+}
+caption {
+	color: #206ba4;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: left;
+
+	background-color: #ebf4fa;
+	padding: 10px 5px;
+}
+.cap {
+	color: #206ba4;
+}
+table, th, td  {
+	vertical-align: middle;
+
+	padding: 3px 5px;
+
+	border-collapse: collapse;
+	border: 0.5px solid black;
+}
+td {
+	color: #606db0;
+}
+tr:nth-of-type(1) th {
+	color: #206ba4;
+	background-color: rgba(32,107,164,0.27);
+}
+tbody {
+	word-break: break-word;
+}
+a, abbr {
+	text-decoration: none;
+}
+q {
+	quotes: "[" "]";
+}
+.green {
+	text-align:center; 
+	background-color: #e3ddd1;
+}
+.gray {
+	text-align:center; 
+	background-color: rgba(32,107,164,0.27);
+}
+.red {
+	text-align:center; 
+	background-color: #cde4f5;	
+}

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="SortingAlgorithms2.xsl"?>
+<!DOCTYPE window[
+	<!ENTITY wiki "https://en.wikipedia.org/wiki/">
+]>
+<comparison>
+	<heading
+	value="Comparison sorts"
+	title="Comparison sorts"
+	href="&wiki;Comparison_sort">		
+	</heading>
+
+	<title
+	isName="Name"
+	isBest="Best"
+	isAverage="Average"
+	isWorst="Worst"
+	isMemory="Memory"
+	isStable="Stable"
+	isMethod="n &#60;&#60; 2^k"
+	isOtherNotes="Notes">
+	</title>
+
+	<row
+	name="Pigeonhole sort"
+		title="Pigeonhole sort"
+		href="&wiki;Pigeonhole_sort"
+	best="-"
+	average="n + 2^k"
+	worst="n + 2^k"
+	memory="2^k"
+	stable="Yes"
+	method="Yes"
+	other=""	
+	>	
+	</row>
+	<row
+	name=""
+	best="-"
+	average="n + k"
+	worst="n² . k"
+	memory="n . k"
+	stable="Yes"
+	method="No"
+	other="Assumes uniform distribution of elements from the domain in the array."	
+	
+	>
+		<before title="Bucket sort" value="Bucket sort" href="&wiki;Bucket_sort"></before>
+		<proxyBef value="(uniform keys)"></proxyBef>
+	</row>
+	<row
+	name=""
+	best="-"
+	average="n + r"
+	worst="n + r"
+	memory="n + r"
+	stable="Yes"
+	method="Yes"
+	other="If r is O(n), then average time complexity is O(n)."	
+	>	
+		<after title="Bucket sort" value="Bucket sort" href="&wiki;Bucket_sort"></after>
+		<proxyAft value="(integer keys)"></proxyAft>
+	</row>
+	<row
+	name="Counting sort"
+		title="Counting sort"
+		href="&wiki;Counting_sort"
+	best="-"
+	average="n + r"
+	worst="n + r"
+	memory="n + r"
+	stable="Yes"
+	method="Yes"
+	other="If r is O(n), then average time complexity is O(n)."	
+	>	
+	</row>
+	<row
+	name="LSD Radix Sort"
+		title="Redix sort"
+		href="&wiki;https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts"
+	best="-"
+	average="n . k/d"
+	worst="n . k/d"
+	memory="n + 2^d"
+	stable="Yes"
+	method="No"
+	other=""	
+	>
+	</row>
+	<row
+	name="MSD Radix Sort"
+		title="Radix sort"
+		href="&wiki;Radix_sort#Most_significant_digit_radix_sorts"
+	best="-"
+	average="n . k/d"
+	worst="n . k/d"
+	memory="n + 2^d"
+	stable="Yes"
+	method="No"
+	other="Stable version uses an external array of size n to hold all of the bins."  
+	>	
+	</row>
+	<row
+	name=""
+	best="-"
+	average="n . k/d"
+	worst="n . k/d"
+	memory="2^d"
+	stable="No"
+	method="No"
+	other="k/d recursion levels, 2^d for count array."	
+	>	
+		<inplaceLink title="Radix sort" value="Radix sort" href="&wiki;Radix_sort#Most_significant_digit_radix_sorts"></inplaceLink>
+		<inplace value="(inplace)"></inplace>
+	</row>
+	<row
+	name="Spreadsort"
+		title="Spreadsort"
+		href="&wiki;Spreadsort"
+	best="n"
+	average="n . k/d"
+	worst="n .(k/s + d)"
+	memory="k/d . 2^d"
+	stable="No"
+	method="No"
+	other="Asymptotic are based on the assumption that n ≪ 2k, but the algorithm does not require this."	
+	>	
+	</row>
+	<row
+	name="Burstsort"
+		title="Burstsort"
+		href="&wiki;Burstsort"
+	best="-"
+	average="n . k/d"
+	worst="n . k/d"
+	memory="n . k/d"
+	stable="No"
+	method="No"
+	other="Has better constant factor than radix sort for sorting strings. Though relies somewhat on specifics of commonly encountered strings."	
+	>	
+	</row>
+	<row
+	name="Flashsort"
+		title="Flashsort"
+		href="&wiki;Flashsort"
+	best="n"
+	average="n + r"
+	worst="n²"
+	memory="n"
+	stable="No"
+	method="No"
+	other="Requires uniform distribution of elements from the domain in the array to run in linear time. If distribution is extremely skewed then it can go quadratic if underlying sort is quadratic (it is usually an insertion sort). In-place version is not stable."	
+	>	
+	</row>
+	<row
+	name="Postman sort"
+		title="Postman sort"
+		href="&wiki;Postman_sort"
+	best="-"
+	average="n . k/d"
+	worst="n . k/d"
+	memory="n + 2^d"
+	stable="-"
+	method="No"
+	other="A variation of bucket sort, which works very similar to MSD Radix Sort. Specific to post service needs."	
+	>	
+	</row>
+
+</comparison>

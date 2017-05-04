@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="conccurrency.css"?>
+<!DOCTYPE root[
+  <!ENTITY wiki "https://en.wikipedia.org/wiki/">
+ ]>
+<root>
+	<pat>
+		<heading>Concurrency patterns</heading>
+		<row>
+			<value>Name</value>
+			<desc>Description</desc>
+			<posa>In POSA2</posa>
+			<else>Other</else>
+		</row>
+		<row>
+			<value>Active Object</value>
+			<desc>Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.</desc>
+			<posa class="green">Yes</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Balking</value>
+			<desc>Only execute an action on an object when the object is in a particular state.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Binding properties</value>
+			<desc>Combining multiple observers to force properties in different objects to be synchronized or coordinated in some way.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Blockchain</value>
+			<desc>Decentralized way to store data and agree on ways of processing it in a Merkle tree, optionally using Digital signature for any individual contributions.	</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Double-checked locking</value>
+			<desc>Reduce the overhead of acquiring a lock by first testing the locking criterion (the 'lock hint') in an unsafe manner; only if that succeeds does the actual locking logic proceed.
+			Can be unsafe when implemented in some language/hardware combinations. It can therefore sometimes be considered an anti-pattern.</desc>
+			<posa class="green">Yes</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Event-based asynchronous</value>
+			<desc>Addresses problems with the asynchronous pattern that occur in multithreaded programs.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Guarded suspension</value>
+			<desc>Manages operations that require both a lock to be acquired and a precondition to be satisfied before the operation can be executed.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Join</value>
+			<desc>Join-pattern provides a way to write concurrent, parallel and distributed programs by message passing. Compared to the use of threads and locks, this is a high-level programming model.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Lock</value>
+			<desc>One thread puts a "lock" on a resource, preventing other threads from accessing or modifying it.</desc>
+			<posa class="red">No</posa>
+			<else class="green">PoEAA</else>
+		</row>
+		<row>
+			<value>Messaging design pattern (MDP)</value>
+			<desc>Allows the interchange of information (i.e. messages) between components and applications.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Monitor object</value>
+			<desc>An object whose methods are subject to mutual exclusion, thus preventing multiple objects from erroneously trying to use it at the same time.</desc>
+			<posa class="green">Yes</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Reactor</value>
+			<desc>A reactor object provides an asynchronous interface to resources that must be handled synchronously.</desc>
+			<posa class="green">Yes</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Read-write lock</value>
+			<desc>Allows concurrent read access to an object, but requires exclusive access for write operations.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Scheduler</value>
+			<desc>Explicitly control when threads may execute single-threaded code.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Thread pool</value>
+			<desc>A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.</desc>
+			<posa class="red">No</posa>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Thread-specific storage</value>
+			<desc>Static or "global" memory local to a thread.</desc>
+			<posa class="green">Yes</posa>
+			<else class="gray">N/A</else>
+		</row>
+	</pat>
+</root>

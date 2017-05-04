@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="behavioral.css"?>
+<!DOCTYPE root[
+  <!ENTITY wiki "https://en.wikipedia.org/wiki/">
+ ]>
+<html xmlns:html="http://www.w3.org/1999/xhtml">
+	<html:head>
+		<html:meta charset="UTF-8"/>
+		<html:meta name="description" content="XML with namespace"/>
+		<html:meta name="keywords" content="XML,CSS,"/>
+		<html:meta name="author" content="KhloyanMarine"/>
+		<html:meta http-equiv="refresh" content="30"/> <!-- refresh every 30sec -->
+		<!-- <html:link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+		<html:link rel="alternate" type="application/atom+xml" title="Wikipedia" href="Software_design_pattern"/>
+		<!-- next and prev link -->
+	</html:head>
+	<html:body>
+		<html:root>
+			<html:table>
+				<html:caption>
+					<html:a class="cap" title="Creational patterns" href="&wiki;Creational_pattern">Behavioral patterns</html:a>
+				</html:caption>
+				<html:thead> 
+					<html:tr>
+						<html:th>Name</html:th>
+						<html:th>Description</html:th>
+						<html:th class="link">In
+							<html:a class="design" title="Design Patterns(book)" target="_blank" href="&wiki;Design_Patterns">Design Patterns</html:a>
+						</html:th>
+						<html:th>In
+							<html:a class="code" title="Code Complete" href="&wiki;Creational_pattern">Code Complete
+								<html:sup>
+								<html:a title='McConnell, Steve (June 2004). "Design in Construction". Code Complete (2nd ed.). Microsoft Press. p. 104. ISBN 978-0-7356-1967-8. Table 5.1 Popular Design Patterns' target="_blank" href="&wiki;Software_design_pattern#cite_note-McConnell2004-18"> <html:q>1</html:q></html:a>
+								</html:sup>
+							</html:a>
+						</html:th>
+						<html:th>Other</html:th>
+					</html:tr>
+				</html:thead>
+				<html:tbody>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Abstract factory pattern" target="_blank" href="&wiki;Abstract_factory_pattern">Blackboard</html:a>
+						</html:td>
+						<html:td class="desc">Artificial intelligence pattern for combining disparate sources of data (see blackboard system)</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Builder pattern" target="_blank" href="&wiki;Builder_pattern">Chain of responsibility</html:a>
+						</html:td>
+						<html:td class="desc">Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Factory method pattern" target="_blank" href="&wiki;Factory_method_pattern">Command</html:a>
+						</html:td>
+						<html:td class="desc">Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Lazy initialization pattern" target="_blank" href="&wiki;Lazy_initialization">Interpreter</html:a>
+						</html:td>
+						<html:td class="desc">Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.</html:td> 
+						<html:td class="green">Yes</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Multiton pattern" target="_blank" href="&wiki;Multiton_pattern">Iterator</html:a>
+						</html:td>
+						<html:td class="desc">Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Object pool pattern" target="_blank" href="&wiki;Object_pool_pattern">Mediator</html:a>
+						</html:td>
+						<html:td class="desc">Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Prototype pattern" target="_blank" href="&wiki;Prototype_pattern">Memento</html:a>
+						</html:td>
+						<html:td class="desc">Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Resource acquisition is initialization" target="_blank" href="&wiki;Resource_Acquisition_Is_Initialization">Null object</html:a>
+						</html:td>
+						<html:td class="desc">Avoid null references by providing a default object.</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Singleton pattern" type="simple" href="&wiki;Singleton_pattern">Observer or Publish/subscribe</html:a>
+						</html:td>
+						<html:td class="desc">Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+						<html:tr>
+						<html:td>
+							<html:a class="links" title="Singleton pattern" type="simple" href="&wiki;Singleton_pattern">Servant</html:a>
+						</html:td>
+						<html:td class="desc">Define common functionality for a group of classes.</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+						<html:tr>
+						<html:td>
+							<html:a class="links" title="Singleton pattern" type="simple" href="&wiki;Singleton_pattern">Specification</html:a>
+						</html:td>
+						<html:td class="desc">Recombinable business logic in a Boolean fashion.</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+						<html:tr>
+						<html:td>
+							<html:a class="links" title="Singleton pattern" type="simple" href="&wiki;Singleton_pattern">State</html:a>
+						</html:td>
+						<html:td class="desc">Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td>
+							<html:a class="links" title="Singleton pattern" type="simple" href="&wiki;Singleton_pattern">Strategy</html:a>
+						</html:td>
+						<html:td class="desc">Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+						<html:tr>
+						<html:td>
+							<html:a class="links" title="Singleton pattern" type="simple" href="&wiki;Singleton_pattern">Template method</html:a>
+						</html:td>
+						<html:td class="desc">Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+						<html:tr>
+						<html:td>
+							<html:a class="links" title="Singleton pattern" type="simple" href="&wiki;Singleton_pattern">Visitor</html:a>
+						</html:td>
+						<html:td class="desc">Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.</html:td>
+						<html:td class="green">Yes</html:td>
+						<html:td class="red">No</html:td>
+						<html:td class="gray">
+							<html:abbr title="Not available">N/A</html:abbr>
+						</html:td>
+					</html:tr>
+				</html:tbody>
+			</html:table>
+		 </html:root>
+	</html:body>
+</html>

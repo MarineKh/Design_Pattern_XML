@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="SortingAlgorithms.xsl"?>
+
+<!DOCTYPE window[
+	<!ENTITY wiki "https://en.wikipedia.org/wiki/">
+]>
+<algorithms xmlns:html="http://www.w3.org/1999/xhtml">
+	<dev-process>
+		<html:embad xmlns:html="http://www.w3.org/1999/xhtml">
+			<svg:svg width="400" height="430"
+				xmlns:svg="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink">
+				<svg:g>
+					<svg:rect class="rect-header" height="55" width="300" x="50" y="1.5" />
+					<svg:a xlink:href="&wiki;Разработка_программного_обеспечения">
+						<svg:text y="6">
+							<svg:tspan class="tspan-bold" x="120" dy="1.2em">Разработка программного</svg:tspan>
+							<svg:tspan class="tspan-bold" x="165" dy="1.2em">обеспечения</svg:tspan>
+							<svg:title>Разработка программного обеспечения</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:rect class="rect-main" height="365" width="300" x="50" y="55" />
+					<svg:a xlink:href="&wiki;Процесс_разработки_программного_обеспечения">
+						<svg:text y="60">
+							<svg:tspan class="tspan-italic" x="125" dy="1.2em">Процесс разработки ПО</svg:tspan>
+							<svg:title>Процесс разработки программного обеспечения</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:rect class="rect-main-inner" height="20" width="245" x="77.5" y="95.5" />
+					<svg:text class="text-main-inner" y="95.5">
+						<svg:tspan class="tspan-bold-inner" x="160" dy="1.2em">Шаги процесса</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Анализ_требований">
+						<svg:text class="text-main-inner" y="120">
+							<svg:tspan x="131" dy="1.2em">Анализ</svg:tspan>
+							<svg:title>Анализ требований</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="120">
+						<svg:tspan x="170" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Проектирование_программного_обеспечения">
+						<svg:text class="text-main-inner" y="120">
+							<svg:tspan x="176" dy="1.2em">Проектирование</svg:tspan>
+							<svg:title>Проектирование программного обеспечения</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="120">
+						<svg:tspan x="268" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Программирование">
+						<svg:text class="text-main-inner" y="135">
+							<svg:tspan x="150" dy="1.2em">Программирование</svg:tspan>
+							<svg:title>Программирование</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="135">
+						<svg:tspan x="258" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Документация_на_программное_обеспечение">
+						<svg:text class="text-main-inner" y="150">
+							<svg:tspan x="110" dy="1.2em">Документирование</svg:tspan>
+							<svg:title>Документация на программное обеспечение</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="150">
+						<svg:tspan x="216" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Тестирование_программного_обеспечения">
+						<svg:text class="text-main-inner" y="150">
+							<svg:tspan x="221" dy="1.2em">Тестирование</svg:tspan>
+							<svg:title>Тестирование программного обеспечения</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:rect class="rect-main-inner" height="20" width="245" x="77.5" y="176"/>
+					<svg:text class="text-main-inner" y="176">
+						<svg:tspan class="tspan-bold-inner" x="182" dy="1.2em">Модели</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Итеративная_разработка">
+						<svg:text class="text-main-inner" y="201">
+							<svg:tspan x="128" dy="1.2em">Итеративная</svg:tspan>
+							<svg:title>Итеративная разработка</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="201">
+						<svg:tspan x="197" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Спиральная_модель">
+						<svg:text class="text-main-inner" y="201">
+							<svg:tspan x="203" dy="1.2em">Спиральная</svg:tspan>
+							<svg:title>Спиральная модель</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="201">
+						<svg:tspan x="267" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Каскадная_модель">
+						<svg:text class="text-main-inner" y="217">
+							<svg:tspan x="105" dy="1.2em">Каскадная</svg:tspan>
+							<svg:title>Каскадная модель</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="217">
+						<svg:tspan x="161" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;V-Model">
+						<svg:text class="text-main-inner" y="217">
+							<svg:tspan x="166" dy="1.2em">V-Model</svg:tspan>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="217">
+						<svg:tspan x="213" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Dual_Vee_Model">
+						<svg:text class="text-main-inner" y="217">
+							<svg:tspan x="219" dy="1.2em">Dual Vee Model</svg:tspan>
+							<svg:title>Dual Vee Model</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:rect class="rect-main-inner" height="20" width="245" x="77.5" y="242" />
+					<svg:text class="text-main-inner" y="242">
+						<svg:tspan class="tspan-bold-inner" x="170" dy="1.2em">Методологии</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Гибкая_методология_разработки">
+						<svg:text class="text-main-inner" y="267">
+							<svg:tspan x="125" dy="1.2em">Agile</svg:tspan>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="267">
+						<svg:tspan x="155" dy="1.2em">(</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Экстремальное_программирование">
+						<svg:text class="text-main-inner" y="267">
+							<svg:tspan x="160" dy="1.2em">XP</svg:tspan>
+							<svg:title>Экстремальное программирование</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="267">
+						<svg:tspan x="177" dy="1.2em" >,</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Бережливая_разработка_программного_обеспечения">
+						<svg:text class="text-main-inner" y="267">
+							<svg:tspan x="182" dy="1.2em">Lean</svg:tspan>
+							<svg:title>Бережливая разработка программного обеспечения</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="267">
+						<svg:tspan x="208" dy="1.2em">,</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Feature_driven_development">
+						<svg:text class="text-main-inner" y="267">
+							<svg:tspan x="214" dy="1.2em">FDD</svg:tspan>
+							<svg:title>Feature driven development</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="267">
+						<svg:tspan x="240" dy="1.2em"> и др.) &#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Cleanroom_Software_Engineering">
+						<svg:text class="text-main-inner" y="285">
+							<svg:tspan x="110" dy="1.2em">Cleanroom</svg:tspan>
+							<svg:title>Cleanroom Software Engineering</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="285">
+						<svg:tspan x="167" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;OpenUP">
+						<svg:text class="text-main-inner" y="285">
+							<svg:tspan x="174" dy="1.2em">OpenUP</svg:tspan>
+							<svg:title>OpenUP</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="285">
+						<svg:tspan x="219" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;RAD_(программирование)">
+						<svg:text class="text-main-inner" y="285">
+							<svg:tspan x="226" dy="1.2em">RAD</svg:tspan>
+							<svg:title>RAD (программирование)</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="285">
+						<svg:tspan x="254" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Rational_Unified_Process">
+						<svg:text class="text-main-inner" y="285">
+							<svg:tspan x="261" dy="1.2em">RUP</svg:tspan>
+							<svg:title>Rational Unified Process</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="285">
+						<svg:tspan x="287" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Microsoft_Solutions_Framework">
+						<svg:text class="text-main-inner" y="304">
+							<svg:tspan x="150" dy="1.2em">MSF</svg:tspan>
+							<svg:title>Microsoft Solutions Framework</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="304">
+						<svg:tspan x="176" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;DSDM">
+						<svg:text class="text-main-inner" y="304">
+							<svg:tspan x="182" dy="1.2em">DSDM</svg:tspan>
+							<svg:title>Метод разработки динамических систем</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="304">
+						<svg:tspan x="219" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Разработка_через_тестирование">
+						<svg:text class="text-main-inner" y="304">
+							<svg:tspan x="225" dy="1.2em">TDD</svg:tspan>
+							<svg:title>Разработка через тестирование</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:rect class="rect-main-inner" height="20" width="245" x="77.5" y="329" />
+					<svg:text class="text-main-inner" y="329">
+						<svg:tspan class="tspan-bold-inner" x="124" dy="1.2em">Сопутствующие дисциплины</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Конфигурационное_управление">
+						<svg:text class="text-main-inner" y="355">
+							<svg:tspan x="120" dy="1.2em">Конфигурационное управление</svg:tspan>
+							<svg:title>Конфигурационное управление</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="355">
+						<svg:tspan x="291" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Управление_проектами">
+						<svg:text class="text-main-inner" y="370">
+							<svg:tspan x="145" dy="1.2em">Управление проектами</svg:tspan>
+							<svg:title>Управление проектами</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+				<svg:g>
+					<svg:text class="text-main-inner" y="370">
+						<svg:tspan x="270" dy="1.2em">&#8226;</svg:tspan>
+					</svg:text>
+				</svg:g>
+				<svg:g>
+					<svg:a xlink:href="&wiki;Управление_требованиями_к_программному_обеспечению">
+						<svg:text class="text-main-inner" y="385">
+							<svg:tspan x="138" dy="1.2em"> Управление требованиями</svg:tspan>
+							<svg:title>Управление требованиями к программному обеспечению</svg:title>
+						</svg:text>
+					</svg:a>
+				</svg:g>
+			</svg:svg>
+		</html:embad>
+	</dev-process>
+		<comparison>
+		<html:table id="comparison" class="tablesorter" xmlns:html="http://www.w3.org/1999/xhtml">
+			<html:caption>Comparison sorts</html:caption>
+			<html:thead>
+				<html:tr>
+					<html:th class="header">Name</html:th>
+					<html:th class="header">Best</html:th>
+					<html:th class="header">Average</html:th>
+					<html:th class="header">Worst</html:th>
+					<html:th class="header">Memory</html:th>
+					<html:th class="header">Stable</html:th>
+					<html:th class="header">Comparison</html:th>
+					<html:th class="header">Other Notes</html:th>
+				</html:tr>
+			</html:thead>
+			<html:tbody>
+				<html:tr>
+					<html:th>
+						<html:a href="&wiki;Quicksort">Quicksort</html:a>
+					</html:th>
+					<html:td class="best">
+						<html:span>nlog n. variation is n</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>nlog n</html:span>
+					</html:td>
+					<html:td class="worst">
+						<html:span>n</html:span>
+					</html:td>
+					<html:td class="avg">
+						<html:span>log n on average, worst case space complexity is n; Sedgewick variation is log n worst case.</html:span>
+					</html:td>
+					<html:td class="avg">Typical in-place sort is not stable; stable versions exist.</html:td>
+					<html:td>Partitioning</html:td>
+					<html:td>Quicksort is usually done in-place with O(log n) stack space.</html:td>
+				</html:tr>
+				<html:tr>
+					<html:th>
+						<html:a href="&wiki;Merge_sort">Merge sort</html:a>
+					</html:th>
+					<html:td class="best">
+						<html:span>nlog n</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>nlog n</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>nlog n</html:span>
+					</html:td>
+					<html:td class="worst">
+						<html:span>n</html:span>
+					</html:td>
+					<html:td class="best">Yes</html:td>
+					<html:td>Merging</html:td>
+					<html:td>Highly parallelizable (up to O(log n) using the Three Hungarians' Algorithm[4] or, more practically, Cole's parallel merge sort) for processing large amounts of data.</html:td>
+				</html:tr>
+				<html:tr>
+					<html:th>
+						<html:a href="&wiki;Merge_sort#Variants">In-place merge sort</html:a>
+					</html:th>
+					<html:td>
+						<html:span>-</html:span>
+					</html:td>
+					<html:td>
+						<html:span>-</html:span>
+					</html:td>
+					<html:td class="avg">
+						<html:span>
+							nlog<html:sup>2</html:sup> n
+						</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>1</html:span>
+					</html:td>
+					<html:td class="best">Yes</html:td>
+					<html:td>Merging</html:td>
+					<html:td>Can be implemented as a stable sort based on stable in-place merging.</html:td>
+				</html:tr>
+				<html:tr>
+					<html:th>
+						<html:a href="&wiki;Heapsort">Heapsort</html:a>
+					</html:th>
+					<html:td class="best">
+						<html:span>nlogn</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>nlogn</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>nlogn</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>1</html:span>
+					</html:td>
+					<html:td class="worst">No</html:td>
+					<html:td>Selection</html:td>
+					<html:td></html:td>
+				</html:tr>
+				<html:tr>
+					<html:th>
+						<html:a href="&wiki;Insertion_sort">Insertion sort</html:a>
+					</html:th>
+					<html:td class="best">
+						<html:span>n</html:span>
+					</html:td>
+					<html:td class="worst">
+						<html:span>
+							n<html:sup>2</html:sup>
+						</html:span>
+					</html:td>
+					<html:td class="worst">
+						<html:span>
+							n<html:sup>2</html:sup>
+						</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>1</html:span>
+					</html:td>
+					<html:td class="best">Yes</html:td>
+					<html:td>Insertion</html:td>
+					<html:td>O(n + d), in the worst case over sequences that have d inversions.</html:td>
+				</html:tr>
+				<html:tr>
+					<html:th>
+						<html:a href="&wiki;Introsort">Introsort</html:a>
+					</html:th>
+					<html:td class="best">
+						<html:span>n log n</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>n log n</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>n log n</html:span>
+					</html:td>
+					<html:td class="avg">
+						<html:span>logn</html:span>
+					</html:td>
+					<html:td class="worst">No</html:td>
+					<html:td>Partitioning &amp; Selection</html:td>
+					<html:td>Used in several STL implementations.</html:td>
+				</html:tr>
+				<html:tr>
+					<html:th>
+						<html:a href="&wiki;Selection_sort">Selection sort</html:a>
+					</html:th>
+					<html:td class="worst">
+						<html:span>
+							n<html:sup>2</html:sup>
+						</html:span>
+					</html:td>
+					<html:td class="worst">
+						<html:span>
+							n<html:sup>2</html:sup>
+						</html:span>
+					</html:td>
+					<html:td class="worst">
+						<html:span>
+							n<html:sup>2</html:sup>
+						</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>1</html:span>
+					</html:td>
+					<html:td class="worst">No</html:td>
+					<html:td>Selection</html:td>
+					<html:td>Stable with O(n) extra space, for example using lists.</html:td>
+				</html:tr>
+				<html:tr>
+					<html:th>
+						<html:a href="&wiki;Timsort">Timsort</html:a>
+					</html:th>
+					<html:td class="best">
+						<html:span>n</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>n log n</html:span>
+					</html:td>
+					<html:td class="best">
+						<html:span>n log n</html:span>
+					</html:td>
+					<html:td class="worst">
+						<html:span>n</html:span>
+					</html:td>
+					<html:td class="best">Yes</html:td>
+					<html:td>Selection</html:td>
+					<html:td>Stable with O(n) extra space, for example using lists.</html:td>
+				</html:tr>
+			</html:tbody>
+		</html:table>
+	</comparison>
+	</algorithms>

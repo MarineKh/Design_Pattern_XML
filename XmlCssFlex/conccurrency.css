@@ -1,0 +1,59 @@
+row {
+	width: 766px;
+	background-color: #f2f2f2;
+	display: flex;
+	margin: 0 auto;	
+}
+heading {
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-left: 330px;
+	padding-top: 200px;
+}
+row:first-of-type value {
+	height: 50px;
+}
+row:first-of-type value,
+row:first-of-type desc,
+row:first-of-type posa, 
+row:first-of-type else {
+	color: black;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: #c6c3c3;
+}
+value {
+	width: 100px;
+	color: blue;
+	padding-left: 5px;
+	border: 1px solid #aaa;
+
+}
+desc {
+	width: 500px;
+	text-align: justify;
+	border: 1px solid #aaa;
+	padding: 3px 8px;
+}
+posa {
+	width: 80px;
+	text-align: center;
+	border: 1px solid #aaa;
+}
+else {
+	width: 80px;
+	text-align: center;
+	border: 1px solid #aaa;
+}
+posa[class=red] {
+	background-color: #f99;
+}
+posa[class=green],
+else[class=green] {
+	background-color: #9f9; 
+}
+else[class=gray] {
+	background-color: #c6c3c3;
+}

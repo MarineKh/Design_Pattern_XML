@@ -1,0 +1,56 @@
+table {
+	background-color: #ebf4fa;
+}
+th {
+	background-color: rgba(32,107,164,0.27);
+	border: 1px solid black;
+}
+td {
+	text-align: center;
+	border: 1px solid black;
+}
+a {
+	/*color: #0645ad;*/
+	text-decoration: underline;
+}
+
+a:visited {
+	fill: #533965;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	fill: green;
+}
+.design_true {
+	background-color: #e3ddd1;
+}
+
+.design_false {
+	background-color: #cde4f5;
+}
+.design_gray {
+	background-color: #ebf4fa;
+}
+.yes {
+	background-color: #e3ddd1;
+}
+.no {
+	background-color: #cde4f5;
+}
+.other {
+	background-color: #ffd;
+}
+.gray {
+	background-color: #e3ddd1;
+} 
+/*.gray {
+	background-color: #e3ddd1;
+} 
+.blue {
+	background-color: #cde4f5;
+} 
+.yellow {
+	background-color: #ffd; 
+} */

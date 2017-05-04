@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="SortingAlgorithms.xsl"?>
+<!DOCTYPE window[
+	<!ENTITY wiki "https://en.wikipedia.org/wiki/">
+]>
+<root>
+	<title
+	thName="Name"
+	thBest="Best"
+	thAverage="Average"
+	thWorst="Worst"
+	thMemory="Memory"
+	thStable="Stable"
+	thMethod="Comparison"
+	thOtherNotes="Other notes">
+	</title>
+
+	<row
+	tdName="Bead sort"
+		title="Bead sort"
+		href="&wiki;Bead_sort"
+	tdBest="n"
+	tdAverage="S"
+	tdWorst="S"
+	tdMemory="n²"
+	tdStable="N/A"
+	tdMethod="No"
+	tdOther="Works only with positive integers. Requires specialized hardware for it to run in guaranteed O(n) time. There is a possibility for software implementation, but running time will be O(S), where S is sum of all integers to be sorted, in case of small integers it can be considered to be linear."	
+	>	
+	</row>
+	<row
+	tdName="Simple pancake sort"
+		title="Simple pancake sort"
+		href="&wiki;Bead_sort"
+	tdBest="-"
+	tdAverage="n"
+	tdWorst="n"
+	tdMemory="log n"
+	tdStable="No"
+	tdMethod="Yes"
+	tdOther="Count is number of flips."	
+	>	
+	</row>
+	<row
+	tdName="Spaghetti (Poll) sort"
+		title="Bead sort"
+		href="&wiki;Bead_sort"
+	tdBest="n"
+	tdAverage="n"
+	tdWorst="n"
+	tdMemory="n²"
+	tdStable="Yes"
+	tdMethod="Polling"
+	tdOther="This is a linear-time, analog algorithm for sorting a sequence of items, requiring O(n) stack space, and the sort is stable. This requires n parallel processors. See spaghetti sort#Analysis."	
+	>	
+	</row>
+	<row
+	tdName="Sorting network"
+		title="Bead sort"
+		href="&wiki;Bead_sort"
+	tdBest="log²n"
+	tdAverage="log²n"
+	tdWorst="log²n"
+	tdMemory="nlog²n"
+	tdStable="Varies (stable sorting networks require more comparisons)"
+	tdMethod="Yes"
+	tdOther="Order of comparisons are set in advance based on a fixed network size. Impractical for more than 32 items."	
+	>	
+	</row>
+	<row
+	tdName="Bitonic sorter"
+		title="Bead sort"
+		href="&wiki;Bead_sort"
+	tdBest="log²n"
+	tdAverage="log²n"
+	tdWorst="log²n"
+	tdMemory="nlog²n"
+	tdStable="No"
+	tdMethod="Yes"
+	tdOther="An effective variation of Sorting networks."	
+	>	
+	</row>
+	<row
+	tdName="Bogosort"
+		title="Bead sort"
+		href="&wiki;Bead_sort"
+	tdBest="n"
+	tdAverage="(n x n!)"
+	tdWorst="&#8734;"
+	tdMemory="1"
+	tdStable="No"
+	tdMethod="Yes"
+	tdOther="Random shuffling. Used for example purposes only, as sorting with unbounded worst case running time."	
+	>	
+	</row>
+	<row
+	tdName="Stooge sort"
+		title="Bead sort"
+		href="&wiki;Bead_sort"
+	tdBest="n^(log3/log1.5)"
+	tdAverage="n^(log3/log1.5)"
+	tdWorst="n^(log3/log1.5)"
+	tdMemory="n"
+	tdStable="No"
+	tdMethod="Yes"
+	tdOther="Slower than most of the sorting algorithms (even naive ones) with a time complexity of O(nlog 3 / log 1.5 ) = O(n2.7095...)."	
+	>	
+	</row>
+</root>
+<!-- <pattern>
+	<html:table xmlns:html="http://www.w3.org/1999/xhtml">
+		<html:caption>Comparison sorts</html:caption>
+		<html:thead>
+			<html:tr>
+				<html:th>Name</html:th>
+				<html:th>Best</html:th>
+				<html:th>Average</html:th>
+				<html:th>Worst</html:th>
+				<html:th>Memory</html:th>
+				<html:th>Stable</html:th>
+				<html:th>Method</html:th>
+				<html:th>Other notes</html:th>
+			</html:tr>
+		</html:thead>
+		<html:tbody>
+			<html:tr>
+				<html:td>Quicksort</html:td>
+				<html:td>n log n variation is  n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n^2</html:td>
+				<html:td>log n on average, worst case space complexity is n; Sedgewick variation is log n worst case.</html:td>
+				<html:td>Typical in-place sort is not stable; stable versions exist.</html:td>
+				<html:td>Partitioning</html:td>
+				<html:td>Quicksort is usually done in-place with O(log n) stack space.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Merge sort</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n A hybrid block merge sort is O(1) mem.</html:td>
+				<html:td>Yes</html:td>
+				<html:td>Merging</html:td>
+				<html:td>Highly parallelizable (up to O(log n) using the Three Hungarians' Algorithm or, more practically, Cole's parallel merge sort) for processing large amounts of data.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>In-place merge sort</html:td>
+				<html:td>-</html:td>
+				<html:td>-</html:td>
+				<html:td>n log^2 n See above, for hybrid, that is {\displaystyle n\log n} n\log n</html:td>
+				<html:td>1</html:td>
+				<html:td>Yes</html:td>
+				<html:td>Merging</html:td>
+				<html:td>Can be implemented as a stable sort based on stable in-place merging.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Heapsort</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>1</html:td>
+				<html:td>No</html:td>
+				<html:td>Selection	</html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Insertion sort</html:td>
+				<html:td>n</html:td>
+				<html:td>n^2</html:td>
+				<html:td>n^2</html:td>
+				<html:td>1</html:td>
+				<html:td>Yes</html:td>
+				<html:td>Insertion</html:td>
+				<html:td>O(n + d), in the worst case over sequences that have d inversions.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Introsort</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>No</html:td>
+				<html:td>Partitioning &#38; Selection</html:td>
+				<html:td>Used in several STL implementations.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Selection sort</html:td>
+				<html:td>n^2</html:td>
+				<html:td>n^2</html:td>
+				<html:td>n^2</html:td>
+				<html:td>1</html:td>
+				<html:td>No</html:td>
+				<html:td>Selection</html:td>
+				<html:td>Stable with O(n) extra space, for example using lists.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Timsort</html:td>
+				<html:td>n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n</html:td>
+				<html:td>Yes</html:td>
+				<html:td>Insertion &#38; Merging</html:td>
+				<html:td>Makes n comparisons when the data is already sorted or reverse sorted.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Cubesort</html:td>
+				<html:td>n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n</html:td>
+				<html:td>Yes</html:td>
+				<html:td>Insertion</html:td>
+				<html:td>Makes n comparisons when the data is already sorted or reverse sorted.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Shell sort</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log^2 n or n^5/4</html:td>
+				<html:td>Depends on gap sequence;best known is n log^2 n</html:td>
+				<html:td>1</html:td>
+				<html:td>No</html:td>
+				<html:td>Insertion</html:td>
+				<html:td>Small code size, no use of call stack, reasonably fast, useful where memory is at a premium such as embedded and older mainframe applications. Best case n log n and worst case n log² n cannot be achieved together. With best case n log n, best worst case is n⁴/³.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Bubble sort</html:td>
+				<html:td>n</html:td>
+				<html:td>n^2</html:td>
+				<html:td>n^2</html:td>
+				<html:td>1</html:td>
+				<html:td>Yes</html:td>
+				<html:td>Exchanging</html:td>
+				<html:td>Tiny code size.</html:td>
+			</html:tr>
+			<html:tr>
+				<html:td>Binary tree sort</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n</html:td>
+				<html:td>n log n(balanced)</html:td>
+				<html:td>n</html:td>
+				<html:td>Yes</html:td>
+				<html:td>Insertion</html:td>
+				<html:td>When using a self-balancing binary search tree.</html:td>
+			</html:tr> -->
+<!-- 			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr>
+			<html:tr>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+				<html:td></html:td>
+			</html:tr> -->
+	<!-- 	</html:tbody> -->
+<!-- 	</html:table>
+</pattern> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

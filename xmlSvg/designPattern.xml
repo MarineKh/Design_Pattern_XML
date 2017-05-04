@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="designPattern.css"?>
+<!DOCTYPE window[
+	<!ENTITY wiki "https://en.wikipedia.org/wiki/">
+]>
+<html:embad xmlns:html="http://www.w3.org/1999/xhtml">
+	<svg:svg width="820px" height="450"
+		xmlns:svg="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink">
+		<svg:g>
+			 <svg:rect class="rect-header" height="40" width="770" x="50" y="17"/>
+			 <svg:text x="30" y="25">
+			 	<svg:a target="_blank" href="&wiki;Template:Design_Patterns_patterns">
+			     	<svg:tspan class="tspan_text" x="70" dy="1.2em">V</svg:tspan>
+			     	<svg:tspan x="82" y="25" dy="19px">&#8226;</svg:tspan>
+			    	<svg:title>View this template</svg:title>
+			     </svg:a>
+			     <svg:a target="_blank" href="&wiki;Template_talk:Design_Patterns_patterns">
+			     	<svg:tspan class="tspan_text" x="90" y="25" dy="1.2em">T</svg:tspan>
+			     	<svg:tspan x="102" y="25" dy="19px">&#8226;</svg:tspan>
+			     	<svg:title>Discuss this template</svg:title>
+			     </svg:a>
+			     <svg:a target="_blank" href="&wiki;w/index.php?title=Template:">
+			     	<svg:tspan class="tspan_text" x="112" y="25" dy="1.2em">E</svg:tspan>
+			     	<svg:title>Edit this template</svg:title>
+			     </svg:a>
+			     <svg:tspan class="tspan-bold" x="350">Software design patterns</svg:tspan>
+			 </svg:text>
+		</svg:g>
+
+		<svg:g>
+			<svg:a target="_blank" href="&wiki;Design_Patterns">
+			<svg:rect class="rect-main-frst" height="85" width="120" x="50" y="60"/>
+				<svg:text y="80">
+					<svg:tspan class="tspan-main" x="60" dy="19px">Gang of Four</svg:tspan>
+					<svg:tspan class="tspan-main" x="95" dy="19px">patterns</svg:tspan>
+					<svg:title>Design Patterns</svg:title>
+				</svg:text>
+			</svg:a>
+		</svg:g>
+		<svg:g>
+		<svg:a target="_blank" href="&wiki;Creational_pattern">
+			<svg:rect class="rect-creational" height="25" width="80" x="175" y="60"/>
+				<svg:text y="77">
+				    <svg:tspan class="tspan-creational" x="185">Creational</svg:tspan>
+				    <svg:title>Creational Patterns</svg:title>
+			    </svg:text>
+		</svg:a>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="57">
+				<svg:tspan x="260" dy="19px">
+					<svg:a target="_blank" href="&wiki;Abstract_factory_pattern">Abstract factory</svg:a>
+					<svg:title>Abstract factory pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="58">
+				<svg:tspan x="358" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="58">
+				<svg:tspan x="370" dy="19px">
+					<svg:a target="_blank" href="&wiki;Builder_pattern">Builder</svg:a>
+					<svg:title>Builder pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="58">
+				<svg:tspan x="418" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="58">
+				<svg:tspan x="430" dy="19px">
+					<svg:a target="_blank" href="&wiki;Factory_method_pattern">Factory method</svg:a>
+					<svg:title>Factory method pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="58">
+				<svg:tspan x="528" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="58">
+				<svg:tspan x="540" dy="19px">
+					<svg:a target="_blank" href="&wiki;Prototype_pattern">Prototype</svg:a>
+					<svg:title>Prototype pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="58">
+				<svg:tspan x="605" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="58">
+				<svg:tspan x="620" dy="19px">
+					<svg:a target="_blank" href="&wiki;Singleton_pattern">Singleton</svg:a>
+					<svg:title>Singleton pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+		<svg:a target="_blank" href="&wiki;Structural_pattern">
+			<svg:rect class="rect-creational" height="25" width="80" x="175" y="90"/>
+				<svg:text y="90">
+				    <svg:tspan class="tspan-creational" x="185" y="105">Structural</svg:tspan>
+				    <svg:title>Structural pattern</svg:title>
+			    </svg:text>
+		</svg:a>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="260" dy="19px">
+					<svg:a target="_blank" href="&wiki;Adapter_pattern">Adapter</svg:a>
+					<svg:title>Adapter pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="310" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="320" dy="19px">
+					<svg:a target="_blank" href="&wiki;Bridge_pattern">Bridge</svg:a>
+					<svg:title>Bridge pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="365" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="380" dy="19px">
+					<svg:a target="_blank" href="&wiki;Composite_pattern">Composite</svg:a>
+					<svg:title>Composite pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="450" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="460" dy="19px">
+					<svg:a target="_blank" href="&wiki;Decorator_pattern">Decorator</svg:a>
+					<svg:title>Decorator pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="525" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="88">
+				<svg:tspan x="535" dy="19px">
+					<svg:a target="_blank" href="&wiki;Proxy_pattern">Proxy</svg:a>
+					<svg:title>Proxy pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+		<svg:a target="_blank" href="&wiki;Behavioral_pattern">
+			<svg:rect class="rect-creational" height="25" width="80" x="175" y="120"/>
+				<svg:text y="90">
+				    <svg:tspan class="tspan-creational" x="185" y="135">Behavioral</svg:tspan>
+				    <svg:title>Behavioral pattern</svg:title>
+			    </svg:text>
+		</svg:a>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="118">
+				<svg:tspan x="260" dy="19px">
+					<svg:a target="_blank" href="&wiki;Chain-of-responsibility_pattern">Chain of responsibility</svg:a>
+					<svg:title>Chain of responsibility pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="119">
+				<svg:tspan x="395" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="118">
+				<svg:tspan x="405" dy="19px">
+					<svg:a target="_blank" href="&wiki;Command_pattern">Command</svg:a>
+					<svg:title>Command pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="118">
+				<svg:tspan x="470" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="118">
+				<svg:tspan x="480" dy="19px">
+					<svg:a target="_blank" href="&wiki;Interpreter_pattern">Interpreter</svg:a>
+					<svg:title>Interpreter pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+		<svg:a target="_blank" href="&wiki;Concurrency_pattern">
+		<svg:rect class="rect-main-frst" height="55" width="120" x="50" y="148"/>
+			<svg:text y="80">
+				<svg:tspan class="tspan-main" x="62" y="150" dy="19px">Concurrency</svg:tspan>
+				<svg:tspan class="tspan-main" x="95" y="170" dy="19px">patterns</svg:tspan>
+				<svg:title>Concurrency pattern</svg:title>
+			</svg:text>
+		</svg:a>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="180" dy="19px">
+					<svg:a target="_blank" href="&wiki;Active_object">Active object</svg:a>
+					<svg:title>Active object</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="260" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="270" dy="19px">
+					<svg:a target="_blank" href="&wiki;Balking_pattern">Balking</svg:a>
+					<svg:title>Balking pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="320"  dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="330" dy="19px">
+					<svg:a target="_blank" href="&wiki;Binding_properties_pattern">Binding properties</svg:a>
+					<svg:title>Binding pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="445" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="455" dy="19px">
+					<svg:a target="_blank" href="&wiki;Double-checked_locking">Double-checked locking</svg:a>
+					<svg:title>Double-checked locking</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="600" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+			<svg:g>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="610" dy="19px">
+					<svg:a target="_blank" href="&wiki;Asynchronous_method_invocation">Event-based asynchronous</svg:a>
+					<svg:title>Asynchronous method invocation</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="150">
+				<svg:tspan x="775" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+		<svg:text class="text-main-inner" y="170">
+			<svg:tspan x="180" dy="19px">
+				<svg:a target="_blank" href="&wiki;Thread_pool">Thread pool</svg:a>
+				<svg:title>Thread pool pattern</svg:title>
+			</svg:tspan>
+		</svg:text>
+		</svg:g>
+		<svg:g>
+     	<svg:a target="_blank" href="&wiki;Architectural_pattern">
+		<svg:rect class="rect-main-frst" height="55" width="120" x="50" y="206"/>
+			<svg:text y="210">
+				<svg:tspan class="tspan-main" x="62" dy="19px">Architectural</svg:tspan>
+				<svg:tspan class="tspan-main" x="95" dy="19px">patterns</svg:tspan>
+				<svg:title>Architectural Patterns</svg:title>
+			</svg:text>
+		</svg:a>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="180" dy="19px">
+					<svg:a target="_blank" href="&wiki;Front_controller">Front controller</svg:a>
+					<svg:title>Front controller</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="275" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="290" dy="19px">
+					<svg:a target="_blank" href="&wiki;Interceptor_pattern">Interceptor</svg:a>
+					<svg:title>Interceptor pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="358" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="368" dy="19px">
+					<svg:a target="_blank" href="&wiki;Model–view–controller">MVC</svg:a>
+					<svg:title>Model-view-controller</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="398" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="410" dy="19px">
+					<svg:a target="_blank" href="&wiki;Specification_pattern">Specification</svg:a>
+					<svg:title>Specification pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="488" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="500" dy="19px">
+					<svg:a target="_blank" href="&wiki;Publish–subscribe_pattern">Publish–subscribe</svg:a>
+					<svg:title>Publish–subscribe pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="75">
+				<svg:tspan x="613" y="205" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="624" dy="19px">
+					<svg:a target="_blank" href="&wiki;Naked_objects">Naked objects</svg:a>
+					<svg:title>Naked objects</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="710" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="720" dy="19px">
+					<svg:a target="_blank" href="&wiki;Service_locator_pattern">Service locator</svg:a>
+					<svg:title>Service locator pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="205">
+				<svg:tspan x="810" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="228">
+				<svg:tspan x="180" dy="19px">
+					<svg:a target="_blank" href="&wiki;Active_record_pattern">Active record</svg:a>
+					<svg:title>Active record pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="228">
+				<svg:tspan x="260" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="228">
+				<svg:tspan x="270" dy="19px">
+					<svg:a target="_blank" href="&wiki;Identity_map_pattern">Identity map</svg:a>
+					<svg:title>Identity map pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="228">
+				<svg:tspan x="345" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner-red" y="228">
+				<svg:tspan x="358" dy="19px">
+					<svg:a target="_blank" href="&wiki;Action–Domain–Responder">ADR</svg:a>
+					<svg:title>Action–Domain–Responder (page does not exist)</svg:title>
+				</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+		<svg:rect class="rect-main" height="55" width="120" x="50" y="264"/>
+			<svg:text y="270">
+				<svg:tspan class="tspan-main" x="116" dy="19px">Other</svg:tspan>
+				<svg:tspan class="tspan-main" x="96" dy="19px">patterns</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="180" dy="19px">
+					<svg:a target="_blank" href="&wiki;Blackboard_(design_pattern)">Blackboard</svg:a>
+					<svg:title>Blackboard design pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="250" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="260" dy="19px">
+					<svg:a target="_blank" href="&wiki;Business_delegate_pattern">Business delegate</svg:a>
+					<svg:title>Business delegate pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="370" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="380" dy="19px">
+					<svg:a target="_blank" href="&wiki;Composite_entity_pattern">Composite entity</svg:a>
+					<svg:title>Composite entity pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="480" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="490" dy="19px">
+					<svg:a target="_blank" href="&wiki;Dependency_injection">Dependency injection</svg:a>
+					<svg:title>Dependency injection</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="620" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="275">
+				<svg:tspan x="630" dy="19px">
+					<svg:a target="_blank" href="&wiki;Intercepting_filter_pattern">Intercepting filter</svg:a>
+					<svg:title>Intercepting filter pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+		<svg:rect class="rect-main" height="35" width="120" x="50" y="322"/>
+			<svg:text y="325">
+				<svg:tspan class="tspan-main" x="112" dy="19px">Books</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="325">
+				<svg:tspan x="180" dy="19px">
+					<svg:a target="_blank" href="&wiki;Design_Patterns">Design Pattern</svg:a>
+					<svg:title>Design Pattern</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="325">
+				<svg:tspan x="270" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="325">
+				<svg:tspan x="280" dy="19px">
+					<svg:a target="_blank" href="&wiki;Enterprise_Integration_Patterns">Enterprise Integration Patterns</svg:a>
+					<svg:title>Enterprise Integration Patterns</svg:title>
+				</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+		<svg:rect class="rect-main" height="35" width="120" x="50" y="360"/>
+			<svg:text y="363">
+				<svg:tspan class="tspan-main" x="112" dy="19px">People</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="365">
+				<svg:tspan x="180" dy="19px">
+					<svg:a target="_blank" href="&wiki;Christopher_Alexander">Christopher Alexander</svg:a>
+					<svg:title>Christopher Alexander</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="366">
+				<svg:tspan x="318" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="365">
+				<svg:tspan x="328" dy="19px">
+					<svg:a target="_blank" href="&wiki;Christopher_Alexander">Erich Gamma</svg:a>
+					<svg:title>Erich Gamma</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="366">
+				<svg:tspan x="410" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="365">
+				<svg:tspan x="420" dy="19px">
+					<svg:a target="_blank" href="&wiki;Ward_Cunningham">Ward Cunningham</svg:a>
+					<svg:title>Ward Cunningham</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="366">
+				<svg:tspan x="530" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="365">
+				<svg:tspan x="540" dy="19px">
+					<svg:a target="_blank" href="&wiki;Martin_Fowler">Martin Fowler</svg:a>
+					<svg:title>Martin Fowler</svg:title>
+				</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+		<svg:rect class="rect-main" height="35" width="120" x="50" y="398"/>
+			<svg:text y="400">
+				<svg:tspan class="tspan-main" x="65" dy="19px">Communities</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="400">
+				<svg:tspan x="180" dy="19px">
+					<svg:a target="_blank" href="&wiki;The_Hillside_Group">The Hillside Group</svg:a>
+					<svg:title>The Hillside Group</svg:title>
+				</svg:tspan>
+			</svg:text>
+			<svg:text class="text-main-inner" y="401">
+				<svg:tspan x="290" dy="19px">&#8226;</svg:tspan>
+			</svg:text>
+		</svg:g>
+		<svg:g>
+			<svg:text class="text-main-inner" y="400">
+				<svg:tspan x="300" dy="19px">
+					<svg:a target="_blank" href="&wiki;Portland_Pattern_Repository">The Portland Pattern Repository</svg:a>
+					<svg:title>The Portland Pattern Repository</svg:title>
+				</svg:tspan>
+			</svg:text>
+		</svg:g>
+	</svg:svg>
+</html:embad>

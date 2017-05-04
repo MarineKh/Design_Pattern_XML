@@ -1,0 +1,230 @@
+caption {
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+
+	display: table-caption;
+
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+table {
+	width: 100%;
+	min-width: 1100px;
+	margin: 30px 0;
+	align-items: center;
+/*	display: table-row-group;*/
+	word-break: break-word;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+td
+{
+	background: #f9f9f9;
+}
+
+th {
+	text-align: center;
+
+	background: #f2f2f2;
+}
+q {
+	quotes: '[' "']"
+}
+table, th, td {
+	font-weight: bold;
+
+	vertical-align: middle;
+	padding: 3px 5px;
+	border-collapse: collapse;
+}
+
+td:nth-of-type(3), td:nth-of-type(4), td:nth-of-type(5) {
+	text-align: center;
+	font-weight: bold;
+}
+
+th:nth-of-type(1) {
+	width: 15%;
+}
+
+th:nth-of-type(2) {
+	width: 63%;
+}
+th:nth-of-type(3), th:nth-of-type(4) {
+	width: 5%;
+}
+
+td:nth-of-type(3) {
+	color: #505050;
+}
+
+td:nth-of-type(4) {
+	color: #505050;
+}
+
+.design_true {
+	background-color: #9F9;
+}
+
+.design_false {
+	background-color: #F99;
+}
+.desine_other {
+	background-color: #d3d3d3; 
+}
+
+.italic  {
+	font-style: italic;
+}
+pattern {
+	width: 100%;
+	min-width: 1100px;
+	
+	
+	flex-direction: column;
+	align-items: center;
+
+	font-family: OpenSans-Light;
+}
+
+table {
+  	width: 1000px;
+
+	margin: auto;
+}
+
+tbody {
+	word-break: break-word;
+}
+
+tr {
+	border: 2px solid #fff;
+}
+
+table, th, td  {
+	vertical-align: middle;
+	padding: 3px 5px;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+
+
+caption a::after,
+thead th:nth-of-type(1)::after,
+thead th:nth-of-type(2)::after,
+thead th:nth-of-type(3)::before,
+thead th:nth-of-type(3) a::after,
+thead th:nth-of-type(4)::before,
+thead th:nth-of-type(4) a::after,
+thead th:nth-of-type(5)::after,
+tbody tr:nth-of-type(1) td:nth-of-type(1)::after,
+tbody tr:nth-of-type(1) td:nth-of-type(1) a::before,
+tbody tr:nth-of-type(9) td:nth-of-type(5) a::after,
+tbody tr:nth-of-type(1) td:nth-of-type(1) a::before,
+tbody tr:nth-of-type(3)  a::before,
+tbody tr:nth-of-type(2)  a::before,
+.design_true::after,
+.design_false::after,
+.design_other::after,
+.design::after,
+.link a::after {
+	content: attr(value);
+}
+
+sup > q::after {
+	content: attr(value);
+}
+
+q {
+	quotes: '[' ']';
+}
+.design_true {
+	background-color: #9F9;
+}
+
+.design_false {
+	background-color: #F99;
+}
+.design_other,thead th:nth-of-type(3),thead th:nth-of-type(4) {
+	background-color: #d3d3d3; 
+}
+pattern {
+	width: 100%;
+	min-width: 1100px;
+	
+	
+	flex-direction: column;
+	align-items: center;
+
+	font-family: OpenSans-Light;
+}
+
+table {
+  	width: 1000px;
+
+	margin: auto;
+}
+
+tbody {
+	word-break: break-word;
+}
+
+tr {
+	border: 2px solid #fff;
+}
+
+table, th, td  {
+	vertical-align: middle;
+	padding: 3px 5px;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+
+
+caption a::after,
+thead th:nth-of-type(1)::after,
+thead th:nth-of-type(2)::after,
+thead th:nth-of-type(3)::before,
+thead th:nth-of-type(3) a::after,
+thead th:nth-of-type(4)::before,
+thead th:nth-of-type(4) a::after,
+thead th:nth-of-type(5)::after,
+tbody tr:nth-of-type(1) td:nth-of-type(1)::after,
+tbody tr:nth-of-type(1) td:nth-of-type(1) a::before,
+tbody tr:nth-of-type(9) td:nth-of-type(5) a::after,
+tbody tr:nth-of-type(1) td:nth-of-type(1) a::before,
+tbody tr:nth-of-type(3)  a::before,
+tbody tr:nth-of-type(2)  a::before,
+.design_true::after,
+.design_false::after,
+.design_other::after,
+.design::after,
+.link a::after {
+	content: attr(value);
+}
+
+sup > q::after {
+	content: attr(value);
+}
+
+q {
+	quotes: '[' ']';
+}
+.design_true {
+	background-color: #9F9;
+}
+
+.design_false {
+	background-color: #F99;
+}
+.design_other,thead th:nth-of-type(3),thead th:nth-of-type(4) {
+	background-color: #d3d3d3; 
+}

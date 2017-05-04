@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="structural.css"?>
+<root>
+	<pat>
+		<heading>Structural patterns</heading>
+		<row>
+			<value>Name</value>
+			<desc>Description</desc>
+			<des-pattern>In Design Patterns</des-pattern>
+			<code-complete>In Code Complete</code-complete>
+			<else>Other</else>
+		</row>
+		<row>
+			<value>Adapter or Wrapper or Translator</value>
+			<desc>Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.</desc>
+			<des-pattern class="green">Yes</des-pattern>
+			<code-complete class="green">Yes</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Bridge</value>
+			<desc>Decouple an abstraction from its implementation allowing the two to vary independently.</desc>
+			<des-pattern class="green">Yes</des-pattern>
+			<code-complete class="green">Yes</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Composite</value>
+			<desc>Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.</desc>
+			<des-pattern class="green">Yes</des-pattern>
+			<code-complete class="green">Yes</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Decorator</value>
+			<desc>Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.</desc>
+			<des-pattern class="green">Yes</des-pattern>
+			<code-complete class="green">Yes</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Extension object</value>
+			<desc>Adding functionality to a hierarchy without changing the hierarchy.</desc>
+			<des-pattern class="red">No</des-pattern>
+			<code-complete class="red">No</code-complete>
+			<else class="green">Agile Software Development, Principles, Patterns, and Practices</else>
+		</row>
+		<row>
+			<value>Facade</value>
+			<desc>Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.</desc>
+			<des-pattern class="green">Yes</des-pattern>
+			<code-complete class="green">Yes</code-complete>
+			<else class="gray">N/A</else>
+		</row> 
+		<row>
+			<value>Flyweight</value>
+			<desc>Use sharing to support large numbers of similar objects efficiently.</desc>
+			<des-pattern class="green">Yes</des-pattern>
+			<code-complete class="red">No</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Front controller</value>
+			<desc>The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.</desc>
+			<des-pattern class="red">No</des-pattern>
+			<code-complete class="green">Yes</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Marker</value>
+			<desc>Empty interface to associate metadata with a class.</desc>
+			<des-pattern class="red">No</des-pattern>
+			<code-complete class="red">No</code-complete>
+			<else class="green">Effective Java</else>
+		</row>
+		<row>
+			<value>Module</value>
+			<desc>Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.</desc>
+			<des-pattern class="red">No</des-pattern>
+			<code-complete class="red">No</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Proxy</value>
+			<desc>Provide a surrogate or placeholder for another object to control access to it.</desc>
+			<des-pattern class="green">Yes</des-pattern>
+			<code-complete class="red">No</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+		<row>
+			<value>Twin</value>
+			<desc>Twin allows modeling of multiple inheritance in programming languages that do not support this feature.</desc>
+			<des-pattern class="red">No</des-pattern>
+			<code-complete class="red">No</code-complete>
+			<else class="gray">N/A</else>
+		</row>
+	</pat>
+</root>

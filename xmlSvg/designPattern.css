@@ -1,0 +1,56 @@
+embad {
+	fill: #afbcc6; 
+	display: block;
+	padding: 0 0 0 250px;
+}
+.tspan-bold-small {
+	font-family: sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+}
+.tspan-bold,
+.tspan-main,
+.tspan-main-third  {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	fill: #704070;
+}
+.tspan_text {
+	fill: #704070;
+}
+.text-main-inner,
+.tspan-creational {
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	fill: #000;
+}
+.text-main-inner-red {
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	fill: red;
+}
+.rect-creational {
+	fill: #c4be5c;
+}
+.rect-main-frst {
+	fill: #afbcc6; 
+}
+.tspan-creational {
+	fill: #533965;
+}
+/*svg a:link{
+	fill: red;
+}*/
+svg a:visited {
+	fill: #533965;
+}
+svg a:hover {
+	text-decoration: underline;
+}
+svg a:active {
+	fill: green;
+}
+

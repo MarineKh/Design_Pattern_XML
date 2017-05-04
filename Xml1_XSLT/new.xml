@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="New.xsl"?>
+<!DOCTYPE catalog [
+<!ENTITY wiki "https://en.wikipedia.org/wiki/">
+]>
+<catalog>
+        <caption 
+            captn="Creational pattern" 
+            title="Creational pattern"
+            href="&wiki;Creational_pattern">
+        </caption>
+        <title 
+         	Value="Name" 
+         	Description="Description" 
+         	DesignPatterns="In "
+         	CodeComplete="In "
+         	Other="Other">
+            <DesignPatterns href="&wiki;Design_Patterns" title="Design Patterns (book)">Design Patterns</DesignPatterns>
+            <CodeComplete href="&wiki;Code_Complete" title="Code Complete">Code Complete</CodeComplete>
+            <sup href="&wiki;Software_design_pattern#cite_note-McConnell2004-18" title="Design in Construction">18</sup>
+		</title>
+        <DesignPattern 
+            id="AbstractFactory"
+            type="AbstractFactory"
+            name="AbstractFactory"
+            title="Abstract factory pattern"
+        	NameFactory="Abstract factory" 
+         	Design="Yes"
+         	Complete="Yes"
+         	OtherName="N/A"
+            href="&wiki;Abstract_factory_pattern"
+         	DescriptionName="Provide an interface for creating families of related or dependent objects without specifying their concrete classes.">
+        </DesignPattern>
+         <DesignPattern 
+            id="AbstractFactory"
+            type="AbstractFactory"
+            name="AbstractFactory"
+            title="Builder pattern"
+        	NameFactory="Builder" 
+         	Design="Yes"
+         	Complete="No"
+         	OtherName="N/A"
+            href="https://en.wikipedia.org/wiki/Builder_pattern"
+         	DescriptionName="Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.">
+        </DesignPattern>
+        <DesignPattern 
+            id="FactoryMethod"
+            type="FactoryMethod"
+            name="FactoryMethod"
+            title="Factory method pattern"
+        	NameFactory="Factory method" 
+         	Design="Yes"
+         	Complete="Yes"
+         	OtherName="N/A"
+            href="https://en.wikipedia.org/wiki/Factory_method_pattern"
+         	DescriptionName="Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses (">
+            <DescriptionName href="&wiki;Dependency_injection" title="dependency injection">dependency injection</DescriptionName>
+            <sup href="&wiki;Software_design_pattern#cite_note-19" title="Design Patterns: Dependency injection">19</sup>
+            <after href="&wiki;">).</after>
+        </DesignPattern>
+          <DesignPattern 
+            id="LazyInitialization"
+            type="LazyInitialization"
+            name="LazyInitialization"
+            title="Lazy initialization"
+        	NameFactory="Lazy initialization" 
+         	Design="Yes"
+         	Complete="No"
+         	OtherName="PoEAA"
+            href="https://en.wikipedia.org/wiki/Lazy_initialization"
+         	DescriptionName="Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as virtual proxy, an implementation strategy for the ">
+            <Proxy href="&wiki;Proxy_pattern" title="Proxy pattern">Proxy</Proxy> 
+            <Pattern> pattern.</Pattern>
+        </DesignPattern>
+        <DesignPattern 
+            id="AbstractFactory"
+            type="AbstractFactory"
+            name="AbstractFactory"
+            title="Multiton pattern"
+        	NameFactory="Multiton" 
+         	Design="No"
+         	Complete="No"
+         	OtherName="N/A"
+            href="https://en.wikipedia.org/wiki/Multiton_pattern"
+         	DescriptionName="Ensure a class has only named instances, and provide a global point of access to them.">
+        </DesignPattern>
+        <DesignPattern
+            id="ObjectPool"
+            type="ObjectPool"
+            name="ObjectPool" 
+            title="Object pool pattern"
+        	NameFactory="Object pool" 
+         	Design="No"
+         	Complete="No"
+         	OtherName="N/A"
+            href="https://en.wikipedia.org/wiki/Object_pool_pattern"
+         	DescriptionName="Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of ">
+            <ConnectionPool href="&wiki;Connection_pool" title="Connection Pool"> connection pool</ConnectionPool>
+            <And> and</And>
+            <TheadPool href="&wiki;Thread_pool" title="Thead Pool"> thread pool</TheadPool>
+            <AfterPool> patterns.</AfterPool>
+        </DesignPattern>
+        <DesignPattern 
+            id="Prototype"
+            type="Prototype"
+            name="Prototype"
+            title="Prototype pattern"
+        	NameFactory="Prototype" 
+         	Design="Yes"
+         	Complete="No"
+         	OtherName="N/A"
+            href="https://en.wikipedia.org/wiki/Prototype_pattern"
+         	DescriptionName=" Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.">
+        </DesignPattern>
+        <DesignPattern 
+            id="ResourceAcquisition"
+            type="ResourceAcquisition"
+            name="ResourceAcquisition"
+            title="Resource acquisition is initialization"
+        	NameFactory="Resource acquisition is initialization" 
+         	Design="No"
+         	Complete="No"
+         	OtherName="N/A"
+            href="https://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization"
+         	DescriptionName="Ensure that resources are properly released by tying them to the lifespan of suitable objects.">
+        </DesignPattern>
+        <DesignPattern 
+            id="Singleton"
+            type="Singleton"
+            name="Singleton"
+            title="Singleton pattern"
+        	NameFactory="Singleton" 
+         	Design="Yes"
+         	Complete="Yes"
+         	OtherName="N/A"
+            href="https://en.wikipedia.org/wiki/Singleton_pattern"
+         	DescriptionName="Ensure a class has only one instance, and provide a global point of access to it.">
+        </DesignPattern>
+        <!-- <pattern>
+    <html:table>
+      <html:caption>
+        <html:a title="Structural patterns" value="Structural patterns" type="simple" href="&wiki;Structural_pattern" target="_blank"></html:a>
+      </html:caption>
+      <html:thead>
+       <html:tr>
+          <html:th 
+            value="Name" class="design_other">
+          </html:th>
+          <html:th 
+            value="Description" class="design_other">
+          </html:th>
+          <html:th value="In" class="link">
+            <html:a value="Design Patterns" title="Design Patterns(book)" type="simple" href="&wiki;Design_Patterns" target="_blank"></html:a>
+          </html:th>
+          <html:th value="In" class="link">
+            <html:a value="Code Complete" title="Code Complete" type="simple" href="&wiki;Code_Complete" target="_blank"></html:a>
+          </html:th>
+          <html:th value="Other" class="design_other"></html:th>
+        </html:tr>
+      </html:thead>
+      <html:tbody>
+        <html:tr>
+          <html:td value="or Wrapper or Translator">
+            <html:a value="Adapter" title="Adapter pattern" type="simple" href="&wiki;Adapter_pattern" target="_blank"></html:a> 
+          </html:td>
+          <html:td 
+            value="Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator." class="design">
+          </html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td >
+            <html:a value="Bridge" title="Bridge pattern" type="simple" href="&wiki;Builder_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Decouple an abstraction from its implementation allowing the two to vary independently." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td >
+            <html:a value="Composite" title="Composite pattern" type="simple" href="&wiki;Composite_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Decorator" title="Decorator pattern" type="simple" href="&wiki;Decorator_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td value="Extension object" class="design"></html:td>
+          <html:td value="Adding functionality to a hierarchy without changing the hierarchy." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="Agile Software Development, Principles, Patterns, and Practices" class="design_true"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Facade" title="Facade pattern" type="simple" href="&wiki;Facade_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Flyweight" title="Flyweight pattern" type="simple" href="&wiki;Flyweight_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Use sharing to support large numbers of similar objects efficiently." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Front controller" title="Front controller" type="simple" href="&wiki;Front_controller" target="_blank"></html:a>
+          </html:td>
+          <html:td value="The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Marker" title="Marker interface pattern" type="simple" href="&wiki;Marker_interface_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Empty interface to associate metadata with a class." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td class="design_true" >
+            <html:a value="Effective Java" title="Joshua Bloch" href="&wiki;Joshua_Bloch"></html:a>
+          </html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Module" title="Module pattern" type="simple" href="&wiki;Module_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Proxy" title="Proxy pattern" type="simple" href="&wiki;Proxy_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Provide a surrogate or placeholder for another object to control access to it." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Twin" title="Twin pattern" type="simple" href="&wiki;Twin_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Twin allows modeling of multiple inheritance in programming languages that do not support this feature." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+      </html:tbody>
+    </html:table>
+</pattern>
+</catalog>
+<pattern xmlns:html="http://www.w3.org/1999/xhtml">
+    <html:table>
+      <html:caption>
+        <html:a title="Structural patterns" value="Structural patterns" type="simple" href="&wiki;Structural_pattern" target="_blank"></html:a>
+      </html:caption>
+      <html:thead>
+       <html:tr>
+          <html:th 
+            value="Name" class="design_other">
+          </html:th>
+          <html:th 
+            value="Description" class="design_other">
+          </html:th>
+          <html:th value="In" class="link">
+            <html:a value="Design Patterns" title="Design Patterns(book)" type="simple" href="&wiki;Design_Patterns" target="_blank"></html:a>
+          </html:th>
+          <html:th value="In" class="link">
+            <html:a value="Code Complete" title="Code Complete" type="simple" href="&wiki;Code_Complete" target="_blank"></html:a>
+          </html:th>
+          <html:th value="Other" class="design_other"></html:th>
+        </html:tr>
+      </html:thead>
+      <html:tbody>
+        <html:tr>
+          <html:td value="or Wrapper or Translator">
+            <html:a value="Adapter" title="Adapter pattern" type="simple" href="&wiki;Adapter_pattern" target="_blank"></html:a> 
+          </html:td>
+          <html:td 
+            value="Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator." class="design">
+          </html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td >
+            <html:a value="Bridge" title="Bridge pattern" type="simple" href="&wiki;Builder_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Decouple an abstraction from its implementation allowing the two to vary independently." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td >
+            <html:a value="Composite" title="Composite pattern" type="simple" href="&wiki;Composite_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Decorator" title="Decorator pattern" type="simple" href="&wiki;Decorator_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td value="Extension object" class="design"></html:td>
+          <html:td value="Adding functionality to a hierarchy without changing the hierarchy." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="Agile Software Development, Principles, Patterns, and Practices" class="design_true"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Facade" title="Facade pattern" type="simple" href="&wiki;Facade_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Flyweight" title="Flyweight pattern" type="simple" href="&wiki;Flyweight_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Use sharing to support large numbers of similar objects efficiently." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Front controller" title="Front controller" type="simple" href="&wiki;Front_controller" target="_blank"></html:a>
+          </html:td>
+          <html:td value="The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Marker" title="Marker interface pattern" type="simple" href="&wiki;Marker_interface_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Empty interface to associate metadata with a class." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td class="design_true" >
+            <html:a value="Effective Java" title="Joshua Bloch" href="&wiki;Joshua_Bloch"></html:a>
+          </html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Module" title="Module pattern" type="simple" href="&wiki;Module_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Proxy" title="Proxy pattern" type="simple" href="&wiki;Proxy_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Provide a surrogate or placeholder for another object to control access to it." class="design"></html:td>
+          <html:td value="Yes" class="design_true"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+        <html:tr>
+          <html:td class="link">
+            <html:a value="Twin" title="Twin pattern" type="simple" href="&wiki;Twin_pattern" target="_blank"></html:a>
+          </html:td>
+          <html:td value="Twin allows modeling of multiple inheritance in programming languages that do not support this feature." class="design"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="No" class="design_false"></html:td>
+          <html:td value="N/A" class="design_other"></html:td>
+        </html:tr>
+      </html:tbody>
+    </html:table>
+</pattern>
+
+
+ -->
